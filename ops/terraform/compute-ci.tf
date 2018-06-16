@@ -50,10 +50,10 @@ resource "google_compute_instance" "compute-ci" {
     }
   }
 
-  # metadata {
-  #   "block-project-ssh-keys" = "true"
-  #   "ssh-keys" = "ytamura:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3KE9HoaQnrMapIlYgjS01dPMgw67NX17eEI8lqmCwzDy/GeR+MejZwQVB4EdqgyyE7KV1nCVya5uhsHrJaIclxtMWUthRGQV+th6aS0cBgJlp8cHiW4NS2XcF3iOGDhSiYp/CRXAU5yJ5loIEzI+pNV/Ns5INDLI8rNB0ZtLL/tmrnIaXWR8lD1/ia38/qZqZ+TO83SkLRAT5WpV3u089wdfk5kLeRekSgJfWqHRXN1/1CkckkMazURX0Y/oXi45kbbgEgmGZJbnz/qxcvmZwvO4IP+ImjQjS5H4AYhrhJ5CPVwRptqpyb5uy0hM2jfSkDnwC+UI3o8VWFBbQG+w7 a@qmu.jp"
-  # }
+  metadata {
+    "block-project-ssh-keys" = "true"
+    "ssh-keys" = "${var.user}:${var.ssh_key}"
+  }
 
   service_account {
     scopes = ["userinfo-email", "compute-ro", "storage-ro"]
