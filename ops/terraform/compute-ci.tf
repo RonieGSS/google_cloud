@@ -4,7 +4,7 @@
 
 resource "google_compute_address" "compute-ci" {
   name = "ronie-jenkins"
-  region = "us-east1"
+  region = "${var.region}"
   address_type = "EXTERNAL"  
 }
 
