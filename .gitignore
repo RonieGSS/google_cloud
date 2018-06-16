@@ -1,3 +1,5 @@
 **/ops/terraform/.terraform
 **/ops/terraform/terraform.tfstate
-**/ops/terraform/terraform.tfstate.backup
+**/ops/terraform/terraform.tfstate.backupops/terraform/terraform.tfvars
+ops/terraform/terraform.tfstate.backup
+ops/terraform/terraform.tfvars
