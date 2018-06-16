@@ -3,7 +3,7 @@ variable "region" {default = "us-east1"}
 variable "zone" {default = "us-east1-b"}
 variable "ssh_key" {}
 variable "user" {}
-variable "cred" {default = "~/.ssh/ronie_google.json"}
+variable "cred" {}
 
 provider "google" {
 	credentials = "${file(var.cred)}"
