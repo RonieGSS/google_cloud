@@ -1,0 +1,6 @@
+---
+service_account_email: "ronie-724@ronie-206608.iam.gserviceaccount.com "
+credentials_file: "~/.ssh/ronie_google.json"
+zone: "asia-southeast1-a"
+project_id: "ronie-206608"
+instance_metadata: '{"sshKeys":"ronie:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCouzNPL4/k48lxdbNKl5kdh2dxs9f32eq7RCwIoVDBxXpazOrHbFo0HEApkMk4FrG8Sl45liWMEL7RrfzwRmtJHoJMxMdgE2OEB6OaaKrhcRwqVCG0QQJJ1Viw0nK+mg/J74xHaRqWq/pRTU/T39Tv9UGdW6e+9HJgU8xvmzqAA/HDEPe06uSIcYSj3rnaUTsNv8be5qvipf+hh/9JamA383csgRLq9uMNFNOTy+vTzCZHwHMSaLxWNtPcOyeKRcy1QvpDtYMDmfjfzaPDd7MQ7a/Q56jpIH7MJQl/8ZI2HYcCkMIjSfKNuoWh9Sc9+jV4a+EkTHaySofbbaq8aOn4Ua6w59NsoKq+mFvAIBMCPHHQUCbdUjSmxTxpVPRxP2CrkSS9AHoVirzL9l1CsawjgOMqJfqLHqPzHSiuJAwWIQ+9k60x4E2F8AgO9X7OvpR7YfIAPC2zyf+5TXDd5Rw2tx5zGzrPpLEt7QBqJ2JWI2yqBdfPTY2QBXsvRYjC8keWujO0f17sOGKd3NXfYlwO9J+/7ym1RhmeqRyU3DlERHLZc74Z01qxvVlGPSd9DCC0RkGHHCZivvGD5R+bAaH+R2c71nZXSmJTmehDBokMASK6VHpHDkBgSg7Cr26Tr7uuqZFiwqB+1Jkd/mv36ETvEx/AAsjfF21r6OdR5820EQ== ronievincent.gss@gmail.com"}'
